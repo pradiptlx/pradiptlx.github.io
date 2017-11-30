@@ -1,0 +1,89 @@
+---
+layout: post
+title: WannaCry, Malware yang Tak Bisa Diremehkan
+date: 2017-11-30 14:30:00 +0700
+description: Post about extraordinary Malware called WannaCry.
+img: img-wannacry.jpg
+tags: [Tech, Internet]
+author: felix #although this is optional
+---
+Akhir-akhir ini dunia cyber telah dihebohkan dengan serangan virus Ransomware _Wannacry_. Mulai pertengahan Mei lalu virus ini telah menyerang jaringan komputer perusahaan dan rumah sakit di belahan dunia. Ransomware _Wannacry_ mengincar dokumen-dokumen penting dari perusahaan dan rumah sakit yang diserang, kemudian mengunci dokumen-dokumen tersebut sehingga tidak bisa di akses. Tidak hanya itu, setelah dokumen tersebut dikunci, muncul pesan yang isinya meminta tebusan berupa uang jika ingin dokumen-dokumennya dibuka kembali (dapat di akses). Jika tidak membayar uang tebusan yang ditentukan, penyandera mengancam akan menghapus dokumen-dokumen milik korban.
+
+_Wannacry_ sendiri adalah sebuah ransomware yang diciptakan oleh para hacker, yang menyerang sistem komputer melalui celah keamanan. Komputer yang terinfeksi malware atau ransomware tersebut, datanya / dokumen-dokumen pentingnya  akan dicuri dan dikunci dengan algoritma menggunakan enkripsi khusus. Setiap dokumen yang terkunci dalam peranti lunak tersebut hanya bisa diakses dengan memasukkan kode-kode unik, yang mana kode unik ini hanya dimiliki oleh si penyebarnya (hacker). Untuk membuka  akses dari dokumen-dokumen yang telah dicuri dan dikunci oleh penyebar virus ini dengan cara membayar uang tebusan yang berupa bitcoin yang telah ditentukan oleh si hacker. Jika korban tidak mau membayarnya, penyebar akan mengancam menghapus dokumen-dokumen penting korban yang telah dicuri dan dikunci tersebut.  
+
+**Ciri-ciri komputer yang terinfeksi Wannacry**  
+
+umumnya,virus ini mmenjangkit ke komputer yang jarang ter-update. Berdasarkan informasi yang dimiliki oleh KompasTekno dan HackerNews,berisi pesan bahwa data pemilik telah terenkripsi secara otomatis dan tidak dapat dibuka sebelum membayar uang jamiman melalui bitcoin yang dapat dilihat seperti gambar dibawah ini.
+
+![WannaCry in action]({{site.baseurl}}/assets/img/img-wannacry.jpg)
+
+Seperti pada gambar diatas, terdapat batas waktu yang tersedia kepada korban untuk membayar uang tebusan melalui bitcoin.  
+
+**Bagaimana ransomware ini bisa bekerja?**  
+
+_Wannacry_ akan mengeksploitasi celah keamanan yang dinamakan EternalBlue pada komputer yang berbasis OS Windows. Pada awalnya program ini diciptakan dan dimiliki oleh Badan Intelijen Amerika Serikat (National Security Agency/NSA). Celah ini kemudian bocor dan dipakai para peretas untuk menerobos keamanan sistem operasi Windows dan menyebarkan ransomware _WannaCry_. Namun, kabar bahagianya adalah,  Microsoft yang selaku pengembang sistem operasi tersebut telah memberikan pernyataan terkait hal ini dan sudah merilis pembaruan bagi para pengguna Windows agar terlindungi dari serangan _Wannacry_. Sistem kerja Malware ini dengan dikirimkan ke komputer pengguna melalui link yang berbahaya, baik link yang ada diberagam situs saat pengguna sedang melakukan browsing  ataupun link yang dikirim peretas melalui spam di email, dimana jika pengguna membuka link tersebut, maka malware akan terunduh dan mulai bekerja. Kemudian, data-data penting yang ada di komputer pengguna akan dicuri dan diubah kedalam bentuk enkripsi sehingga pengguna tidak dapat dibuka atau diakses lagi. Dan ujung-ujungnya, peretas akan mengirimkan pesan kepada pengguna yang isinya adalah permintaan uang tebusan untuk mengembalikan data/dokumen yang telah dicuri dan dikunci oleh peretas agar datanya bisa dikembalikan dan dapat dibuka lagi. Jika pengguna tidak membayar dengan jumlah uang dan di luar waktu limit yang telah ditentukan, peretas akan menghapus data-data pengguna.  
+
+**Dokumen apa saja yang bisa di serang oleh Ransomware WannaCry?**  
+
+Virus ransomware ini bisa menyerang berbagai jenis format data yang ada di computer pengguna. Mulai dari _Microsoft Word_, _Exel_, _Powerpoint_, _.PDF_, _.JPG_, _.ZIP_, sampai pada dokumen _Adobe Photoshop_, _Adobe Premier_.  
+
+**Sudah menyerang kemana saja virus menyebalkan ini?**  
+
+Ransomware _Wannacry_ telah melumpuhkan celah keamanan jaringan computer yang ada di 16 rumah sakit di Inggris. Lalu menyebar ke Rusia dengan menyerang 1.000 komputer di Kementerian Dalam Negeri, dimana tidak tanggung-tanggung lagi yang menjadi korban serangan para hacker ini. Tidak hanya sampai disitu, malware ini juga telah menyebar ke 150 negara di belahan dunia, termasuk penyerangan di perusahaan-perusahaan otomotif seperti Renult, Nissan, perusahaan pengiriman barang FedEX yang ada di Amerika, hingga perusahaan telekomunikasi asal Spanyol Telefonica. Ransomware _Wannacry_ juga menyebar di Indonesia, salah satu yang menjadi korban penyerangan  di Indonesia kali ini adalah Rumah Sakit Dharmis. Operasional di rumah sakit tersebut menjadi terganggu dan membuat pelayanan pasien dilakukan secara manual (contoh : antrean menggunakan kertas).  
+
+**Bagaimana cara mencegahnya?**  
+
+Cara mencegah Ransomeware WannaCry dengan cara mengupdate OS terbaru dari Windows, dimana Windows telah memberikan update terbaru dengan menambal celah keamanan yang telah dieksploitasi oleh malware ini. Selain itu, Anda juga bisa menambah proteksi keamanan komputer dengan menginstal antivirus dan internet security, terutama pada pengguna yang berbasis OS lawas seperti Windows XP dan Windows Vista karena sangat beresiko bagi kedua OS tersebut. Kenapa demikian? Karena yang sudah kita ketahui bersama, Microsoft telah menghentikan dukungan update terhadap kedua OS yang sudah lawas tersebut. Selain itu, pastikan Anda telah mem-backup data-data penting Anda sebelum hilang selamanya akibat ulah Ransomeware WannaCry ini. Perlu kita ketahui bersama bahwa penyebaran malware ini bisa secara langsung antar PC ke PC melalui jaringan internet client server. Dan sebagai pengguna internet yang baik dan bijaksana, sebaiknya kita juga tidak mudah untuk mengklik link yang tidak kita kenali (sembarangan) saat browsing atau saat membuka email (dapat spam email) yang pengirimnya tidak kita kenali. Kemudian, langkah-langkah teknis untuk mencegah dan menangani penyebaran malware WannaCry adalah berikut ini :  
+
+>Pencegahan  
+1. Ransomware WannaCry mengincar fungsi Server Message Block (SMB) dari komputer yang berbasis Windows. Oleh karena itu putuskan koneksi internet terlebih dahulu lalu back up
+2. Matikan fitur Windows SMB v1.0  
+![Windows-feature]({{site.baseurl}}/assets/img/windows-features.png)
+  * Masuk ke menu Windows
+  * kemudian masuk ke Windows features
+  * Hilangkan opsi centang pada **SMB 1.0/CIFS File Sharing Support**
+  * Jika sudah, klik **OK** lalu restart komputer anda
+3. Matikan fungsi **Macros** atau **Windows Script**  
+![registry]({{site.baseurl}}/assets/img/enable.png)
+  * Klik tombol Win + R, ketik regedit, dan Enter
+  * Cari register berikut : _HKEY_CURRENT_USER\Software\Microsoft\Windows Script Host\Settings\_ kemudian klik kanan pada sidebar sebelah kanan
+  * Klik **New - DWORD (32-bit) Value**. Ubah nama menjadi menjadi Enable dan klik kanan - **Modify** - **Set value data 0**.
+  * Klik tombol Win + R, kemudian ketik wscript dan Enter
+  * Apabila terdapat popup bertuliskan _"Windows Script Host access is disabled on this machine. Contact your administrator for details.”_ berarti fungsi _Macros_ atau _Windows Script_ sudah dalam keadaan nonaktif.
+4. Nonaktifkan port yang rawan dimasuki oleh Ransomware WannaCry
+  * Tekan tombol Windows pada keyboard.
+  * Ketik Windows Firewall with Advance Security, lalu tekan enter.
+  * Klik Inbound Rules, lalu klik New Rules.
+  * Klik opsi Port  dan lanjutkan.
+  * Pilih TCP, lalu pilih Specific Local Port. Ketik 139, 445, 3389, dan klik Next
+  * Kemudian klik Block The Connection dan klik Next.
+  * Beri nama pada pengaturan yang telah dibuat dan klik Finish
+
+**Mengatasi**  
+
+1. Silahkan masuk System Configuration dengan cara menekan tombol Win+R lalu ketik msconfig.
+2. Pilih opsi boot dan centang safe boot dan pilih opsi minimal.
+3. Klik OK lalu restart komputer anda.
+4. Setelah komputer kembali menyala, silahkan masuk System Configuration dan pilih Startup kemudian hilangkan centang pada program yang mencurigakan, lalu klik OK kemudian pilih opsi exit without restart.
+5. Setelah itu periksa folder untuk menemukan file yang mencurigakan  
+
+>%TEMP%
+%APPDATA%
+%ProgramData%
+
+6. Jika Anda menemukan folder yang mencurigakan, mungkin folder tersebut berasal dari Ransomware WannaCry, Anda dapat menghapus folder tersebut.
+7. Selanjutnya cek Host file,  pada _C:\windows\System32\drivers\etc._ Pada kasus yang jarang, malware atau virus dapat mengubah host untuk memblokir atau mengarahkan kita ke website berbahaya.
+8.Jika tidak ada lagi folder atau file yang mencurigakan, restart komputer Anda dengan mengubah pengaturan mode boot ke pilihan sebelumnya. Masuk ke System Configuration dan hilangkan centang pada Safe mode dan klik Restart. 
+9. Setelah booting dan masuk ke Desktop, Anda dapat menghapus folder yang berhubungan dengan Ransomware tadi.
+10. **Optional.** Jika masih belum bisa, anda dapat mengunduh aplikasi decryptor dari website yang terpercaya. Anda juga disarankan untuk install antivirus dan melakukan scan secara periodik untuk menghindari terkenanya virus ini.  
+
+
+>Kelompok STI-A :
+05111740000031 - M. Waffa A.
+05111740000127 - Elkana Hans W.
+05111740000181 - Akwila Feliciano P
+05111740000187 - Rana Wijdan Naim
+
+>Source :  
+>http://www.malangtekno.net/cara-mencegah-dan-mengatasi-virus-ransomware-wanna-cry/  
+>https://kumparan.com/jofie-yordan/semua-yang-perlu-kamu-tahu-tentang-ransomware-wannacry-ada-di-sini
