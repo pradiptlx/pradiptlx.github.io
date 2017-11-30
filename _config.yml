@@ -6,7 +6,7 @@ description: > #Make a quote
   by email. Happy reading!
   
 permalink: ':title/:year/:month/:day/:title'
-baseurl: "/blog" # the subpath of your site, e.g. /blog
+baseurl: "/home" # the subpath of your site, e.g. /blog
 url: "https://pradiptlx.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Author settings
