@@ -6,8 +6,8 @@ description: > #Make a quote
   by email. Happy reading!
   
 permalink: ':title/:year/:month/:day/:title'
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/blog" # the subpath of your site, e.g. /blog
+url: "https://pradiptlx.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Author settings
 author: Akwila  Feliciano # add your name
