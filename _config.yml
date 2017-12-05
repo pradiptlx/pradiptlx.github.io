@@ -2,9 +2,9 @@ title: deXfrost
 email: rdthlx@outlook.com
 description: > #Make a quote
   This blog created for sharing my experience (ofc not everything).
-  I like sharing something and if you curious about me just contact 
+  I like sharing something and if you curious about me just contact
   by email. Happy reading!
-  
+
 permalink: ':title/:year/:month/:day/:title'
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://pradiptlx.github.io" # the base hostname & protocol for your site, e.g. http://example.com
@@ -12,9 +12,9 @@ url: "https://pradiptlx.github.io" # the base hostname & protocol for your site,
 # Author settings
 author: Akwila  Feliciano # add your name
 author-pic: felix-pic
-about-author: Hi there, my name is Akwila Feliciano P. You can call me Felix. I'm student at Informatics ITS.  
+about-author: Hi there, my name is Akwila Feliciano P. You can call me Felix. I'm student at Informatics ITS.
               I have passion in technology development. I'm still learning about web and others.
-              
+
 # Contact links
 email: rdthlx@outlook.com # Add your Email address
 phone: # Add your Phone number
@@ -33,7 +33,7 @@ mailchimp: # Add your MailChimp form identifier.
 #discus_identifier: mr-brown # Add your discus identifier
 
 # Tracker
-analytics: # Google Analytics
+analytics: UA-110695889-1 # Google Analytics
 
 # Paginate
 paginate: 6
